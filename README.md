@@ -6,15 +6,13 @@ En esta solución, utilizamos colas para simular la fila de clientes que esperan
 ## explicacion mas simple 
 ¡Claro! Imagina que estás en una tienda de helados y hay una cola de personas esperando. La primera persona que llega es la primera en ser atendida, ¿verdad? Bueno, una cola en Python es como esa fila de personas. Puedes agregar nuevos elementos al final de la cola y quitar elementos de la parte delantera. Es como una lista, ¡pero con reglas especiales sobre cómo agregar y quitar elementos!
 
+ ```
 ### Ejemplo de Uso:
 
-1. **Importar la Clase `Queue`:**
+**Importar la Clase `Queue`:**
 
-   ```python
+   python
    from queue import Queue
-
-```
-# Uso de Colas:
 
 Se crea una cola vacia:
 cola = Queue()
@@ -45,4 +43,6 @@ En esta solución, utilizamos una cola para gestionar la fila de clientes en el 
 
 clientes_en_cola_final = len(cola) - (tiempo_total_clientes - len(cola))
 Las colas nos permiten gestionar eficazmente el orden de atención de los clientes y calcular el tiempo de espera y el tiempo de inactividad del asesor en el banco.
-
+```
+## Consola
+![Consola](https://media.discordapp.net/attachments/876619774044549130/1227828521607499817/image.png?ex=6629d36b&is=66175e6b&hm=9591403b500fac36553fbdc38761de5551f5481884edef09a482360873eaab9f&=&format=webp&quality=lossless)
