@@ -12,9 +12,11 @@ En esta solución, utilizamos colas para simular la fila de clientes que esperan
 
    ```python
    from queue import Queue
-   
+
 ```
-# Crear una Cola Vacía:
+# Uso de Colas:
+
+Se crea una cola vacia:
 cola = Queue()
 # Agregar Elementos a la Cola:
 cola.put(elemento)
@@ -22,7 +24,8 @@ cola.put(elemento)
 elemento = cola.get()
 
 ## Uso en esta Solución:
-En esta solución, utilizamos una cola para gestionar la fila de clientes en el banco. Aquí está cómo se utilizan las colas en esta solución:
+En esta solución, utilizamos una cola para gestionar la fila de clientes en el banco.
+ Aquí está cómo se utilizan las colas en esta solución:
 
 # Creamos una cola vacía al inicio de la simulación:
 - cola = Queue()
