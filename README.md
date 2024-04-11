@@ -14,7 +14,7 @@ En esta solución, utilizamos colas para simular la fila de clientes que esperan
    from queue import Queue
 
 # Crear una Cola Vacía:
-cola = Queue()
+```cola = Queue()
 # Agregar Elementos a la Cola:
 cola.put(elemento)
 # Eliminar y Devolver el Primer Elemento de la Cola:
